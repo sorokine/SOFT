@@ -36,7 +36,7 @@ cat:oranges -subcat-> cat:fruits
 ```
 and it renders in
 
-![SOFT Example 1](wiki/example1.png)
+![SOFT Example 1](SOFT/wiki/example1.png)
 
 # SOFT Data Model
 
