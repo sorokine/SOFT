@@ -1,0 +1,7 @@
+
+# this is a comment (ignored)
+    
+[Healthy_Food]
+cat:apples -subcat-> cat:fruits
+cat:oranges -subcat-> cat:fruits
+

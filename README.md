@@ -38,31 +38,3 @@ and it renders in
 
 ![SOFT Example 1](SOFT/wiki/example1.png)
 
-# SOFT Data Model
-
-* relations in ontologies are represented as triples using the
-  following syntax:
-```
-cat:category1 -relation-> cat:category2
-```
-
-* [NOT IMPLEMENTED] relations can be time-indexed:
-```
-cat:category1 -relation-> cat:category2 @time-interval
-```
-
-* there are two basic types of entities in SOFT:
- * ```cat:``` categories
- * ```inst:``` instances
-
-* SOFT file can be divided into nested sections.  Sections are
-  designated by square brackets:
-```
-[Section 1]
-[[Section 1.1]]
-```
- * [NOT IMPLEMENTED] sections also subdivide SOFT files into 
-   namespaces 
-
-* ontology entities can be associated with properties that are stored
-  in CSV files or relational databases

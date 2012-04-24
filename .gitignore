@@ -1,5 +1,4 @@
 *.pdf
-examples/*
 .DS_Store
 *.oo3/*
 *.ps

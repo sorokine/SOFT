@@ -1,0 +1,13 @@
+# this is a comment (ignored)
+
+[Food]
+
+[[Healthy_Food]]
+cat:apples -subcat-> cat:fruits
+cat:oranges -subcat-> cat:fruits
+cat:mandm -subcat-> *cat:junk_food
+
+[[Unhealthy_Food]]
+cat:pizza -subcat-> cat:junk_food
+cat:hamburger -subcat-> cat:junk_food
+
