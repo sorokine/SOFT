@@ -1,0 +1,31 @@
+#
+# styles for isotopes database
+#
+
+\style rel:isotope 
+	style=solid
+	arrowhead=dot
+	color=purple
+#	label=isotope
+\style
+
+\style rel:use extends rel:
+	color=green
+\style
+
+\style cat:Elements extends cat:
+	fillcolor=#abcdef
+	style=filled
+\style
+
+\style cat:@IsotopeList.csv extends cat:
+        ~shape=plaintext
+	~label=\
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"> \
+  <TR><TD rowspan="2"><FONT POINT-SIZE="20.0" FACE="Helvetica" COLOR="blue">@ID@</FONT></TD><TD>@P:IsotopNo@</TD></TR> \
+  <TR><TD>Z=@P:Z@</TD></TR> \
+  <TR><TD>Halflife</TD><TD>@P:HalfLife@<BR/>+/- @P:HalfLifeSD@ @P:HalfLifeUnit@</TD></TR> \
+  <TR><TD>Decay Constant</TD><TD>@P:DecayConst@ <I>@P:DecayUnit@</I></TD></TR> \
+  <TR><TD>Mass Activity</TD><TD>@P:MassActivity@ <I>@P:MassActivityUnit@</I></TD></TR> \
+</TABLE>
+\style

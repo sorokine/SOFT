@@ -1,0 +1,12 @@
+#
+# styles GNIS classes
+#
+
+\style cat:@GNISFeat.csv extends cat: 
+        ~shape=plaintext
+        ~label=\
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"> \
+  <TR><TD>@ID@</TD><TD><FONT POINT-SIZE="10">@P:count@</FONT></TD></TR> \
+  <TR><TD COLSPAN="2"><FONT POINT-SIZE="10">@P:Description@</FONT></TD></TR> \
+</TABLE>
+\style

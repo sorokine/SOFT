@@ -1,0 +1,33 @@
+#
+# default styles for SOFT2DOT converter
+# see DOT language spec for details about the styles
+#
+
+#
+# \style (rel|cat|inst|sect<depth>):<ID> [extends <other_style>]
+#     style=dashed
+#     <style_property>=<value>
+#     ...
+# \style
+#
+
+\style rel:locatedIn
+	style=dashed
+	label="locatedIn"
+	color=purple
+	fontcolor=purple
+\style
+
+\style rel:surveilledBy
+	style=dashed
+	label="surveilledBy"
+	color=crimson
+	fontcolor=crimson
+\style
+
+\style rel:detects
+	style=dashed
+	label="detects"
+	color=crimson
+	fontcolor=crimson
+\style

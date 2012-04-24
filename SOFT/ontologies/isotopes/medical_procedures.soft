@@ -1,0 +1,183 @@
+# this is a comment (ignored)
+
+[Medical Procedure]
+
+cat:brain_death_and_cerebral_blood_flow_scans -subcat-> cat:planar_gamma_camera
+cat:cisternogram -subcat-> cat:planar_gamma_camera
+cat:thyroid_scan -subcat-> cat:planar_gamma_camera
+cat:thyroid_scan_and_uptake -subcat-> cat:planar_gamma_camera
+cat:thyroid_cancer_scan -subcat-> cat:planar_gamma_camera
+cat:parathyroid_scan -subcat-> cat:planar_gamma_camera
+cat:rest_gated_equlibrium_ventriculography -subcat-> cat:planar_gamma_camera
+cat:adinosine_pharmacologic_stress_procedure -subcat-> cat:planar_gamma_camera
+cat:pulmonary_perfusion_scan -subcat-> cat:planar_gamma_camera
+cat:liver_spleen_scan -subcat-> cat:planar_gamma_camera
+cat:hepatobiliary_scan -subcat-> cat:planar_gamma_camera
+cat:meckels_diverticulum_scan -subcat-> cat:planar_gamma_camera
+cat:gastrointestinal_bleeding_scan -subcat-> cat:planar_gamma_camera
+cat:esophageal_transit -subcat-> cat:planar_gamma_camera
+cat:gastroesopagaeal_reflux -subcat-> cat:planar_gamma_camera
+cat:gastric_emptying -subcat-> cat:planar_gamma_camera
+cat:leveen_shunt_patency -subcat-> cat:planar_gamma_camera
+cat:bone_scan -subcat-> cat:planar_gamma_camera
+cat:bone_marrow_scan -subcat-> cat:planar_gamma_camera
+cat:renal_blood_flow_scan -subcat-> cat:planar_gamma_camera
+cat:renal_scan_cortical -subcat-> cat:planar_gamma_camera
+cat:renal_scan_glomerular_filtration -subcat-> cat:planar_gamma_camera
+cat:renal_scan_tubular_function -subcat-> cat:planar_gamma_camera
+cat:diuretic_lasix_renogram -subcat-> cat:planar_gamma_camera
+cat:captopril_renogram -subcat-> cat:planar_gamma_camera
+cat:radionuclide_systogram_in_children -subcat-> cat:planar_gamma_camera
+cat:testicular_scan -subcat-> cat:planar_gamma_camera
+cat:gallium_scan_for_tumor_or_infection -subcat-> cat:planar_gamma_camera
+cat:somatostatin_receptor_scan_with_indium_pentereotide -subcat-> cat:planar_gamma_camera
+cat:lymphoscintigraphy -subcat-> cat:planar_gamma_camera
+cat:lekocyte_scan -subcat-> cat:planar_gamma_camera
+
+cat:pulmonary_ventilation_scan_xenon -subcat-> cat:large_FOV_camera
+cat:pulmonary_ventilation_scan_DTPA_aerosol -subcat-> cat:large_FOV_camera
+
+cat:SPECT_brain_imaging -subcat-> cat:SPECT
+cat:SPECT_myocardial_perfusion_imaging -subcat-> cat:SPECT
+cat:exercise_protocol_using_bruce_multistage -subcat-> cat:SPECT
+cat:dipyridamole_pharmacologic_stress_procedure -subcat-> cat:SPECT
+cat:SPECT_liver_spleen_scan -subcat-> cat:SPECT
+cat:SPECT_bone_scan -subcat-> cat:SPECT
+
+cat:PET_oncological -subcat-> cat:PET
+cat:PET_cardiovascular -subcat-> cat:PET
+cat:PET_neurological -subcat-> cat:PET
+cat:PET_other -subcat-> cat:PET
+cat:RBC_labeling -subcat-> cat:planar_gamma_camera
+
+cat:Tc-99m -used_in-> cat:brain_death_and_cerebral_blood_flow_scans 
+cat:In-111 -used_in-> cat:cisternogram 
+cat:Tc-99m -used_in-> cat:thyroid_scan
+cat:I-123 -used_in-> cat:thyroid_scan_and_uptake 
+cat:I-123 -used_in-> cat:thyroid_cancer_scan 
+cat:I-131 -used_in-> cat:thyroid_cancer_scan
+cat:Tc-99m -used_in-> cat:parathyroid_scan 
+cat:Tc-99m -used_in-> cat:rest_gated_equlibrium_ventriculography 
+cat:Tc-99m -used_in-> cat:exercise_protocol_using_bruce_multistage 
+cat:Tl-201 -used_in-> cat:dipyridamole_pharmacologic_stress_procedure 
+cat:Tl-201 -used_in-> cat:adinosine_pharmacologic_stress_procedure 
+cat:Xe-133 -used_in-> cat:pulmonary_ventilation_scan_xenon 
+cat:Tc-99m -used_in-> cat:pulmonary_ventilation_scan_DTPA_aerosol 
+cat:Tc-99m -used_in-> cat:pulmonary_perfusion_scan 
+cat:Tc-99m -used_in-> cat:liver_spleen_scan 
+cat:Tc-99m -used_in-> cat:hepatobiliary_scan 
+cat:Tc-99m -used_in-> cat:meckels_diverticulum_scan 
+cat:Tc-99m -used_in-> cat:gastrointestinal_bleeding_scan 
+cat:Tc-99m -used_in-> cat:esophageal_transit 
+cat:Tc-99m -used_in-> cat:gastroesopagaeal_reflux 
+cat:Tc-99m -used_in-> cat:gastric_emptying 
+cat:In-111 -used_in-> cat:gastric_emptying
+cat:Tc-99m -used_in-> cat:leveen_shunt_patency 
+cat:Tc-99m -used_in-> cat:bone_scan 
+cat:Tc-99m -used_in-> cat:bone_marrow_scan 
+cat:Tc-99m -used_in-> cat:renal_blood_flow_scan 
+cat:Tc-99m -used_in-> cat:renal_scan_cortical 
+cat:Tc-99m -used_in-> cat:renal_scan_glomerular_filtration 
+cat:Tc-99m -used_in-> cat:renal_scan_tubular_function 
+cat:Tc-99m -used_in-> cat:diuretic_lasix_renogram 
+cat:Tc-99m -used_in-> cat:captopril_renogram
+cat:Tc-99m -used_in-> cat:radionuclide_cystogram_in_children 
+cat:Tc-99m -used_in-> cat:testicular_scan 
+cat:Ga-67 -used_in-> cat:gallium_scan_for_tumor_or_infection 
+cat:In-111 -used_in-> cat:somatostatin_receptor_scan_with_indium_pentereotide 
+cat:Tc-99m -used_in-> cat:lymphoscintigraphy 
+cat:In-111 -used_in-> cat:lekocyte_scan 
+
+cat:Tc-99m -used_in-> cat:SPECT_brain_imaging
+cat:Tc-99m -used_in-> cat:SPECT_myocardial_perfusion_imaging
+cat:Tl-201 -used_in-> cat:SPECT_myocardial_perfusion_imaging
+cat:Tc-99m -used_in-> cat:SPECT_liver_spleen_scan
+cat:Tc-99m -used_in-> cat:SPECT_bone_scan
+cat:Ga-67 -used_in-> cat:SPECT
+cat:I-123 -used_in-> cat:SPECT
+cat:I-125 -used_in-> cat:SPECT
+cat:I-131 -used_in-> cat:SPECT
+cat:In-111 -used_in-> cat:SPECT
+cat:Lu-177 -used_in-> cat:SPECT
+cat:Rh-186 -used_in-> cat:SPECT
+cat:Rh-188 -used_in-> cat:SPECT
+cat:Te-125m -used_in-> cat:SPECT
+cat:Xe-133 -used_in-> cat:SPECT
+
+cat:F-18 -used_in-> cat:PET_cardiovascular
+cat:F-18 -used_in-> cat:PET_oncological
+cat:F-18 -used_in-> cat:PET_neurological
+cat:F-18 -used_in-> cat:PET_other 
+cat:As-74 -used_in-> cat:PET_other
+cat:Br-76 -used_in-> cat:PET_other
+cat:C-11 -used_in-> cat:PET_oncological
+cat:C-11 -used_in-> cat:PET_cardiovascular
+cat:C-11 -used_in-> cat:PET_neurological
+cat:C-11 -used_in-> cat:PET_other
+cat:Cs-137 -used_in-> cat:PET_other
+cat:Cu-60 -used_in-> cat:PET_other
+cat:Cu-61 -used_in-> cat:PET_other
+cat:Cu-62 -used_in-> cat:PET_cardiovascular
+cat:Cu-62 -used_in-> cat:PET_oncological
+cat:Cu-62 -used_in-> cat:PET_neurological
+cat:Cu-62 -used_in-> cat:PET_other
+cat:Cu-64 -used_in-> cat:PET_oncological
+cat:Cu-64 -used_in-> cat:PET_neurological
+cat:Cu-64 -used_in-> cat:PET_other
+cat:Cu-67 -used_in-> cat:PET_other
+cat:Fe-52 -used_in-> cat:PET_other
+cat:Ga-68 -used_in-> cat:PET_oncological
+cat:Ga-68 -used_in-> cat:PET_cardiovascular
+cat:I-124 -used_in-> cat:PET_oncological
+cat:I-124 -used_in-> cat:PET_cardiovascular
+cat:N-13 -used_in-> cat:PET_cardiovascular
+cat:N-13 -used_in-> cat:PET_other
+cat:O-15 -used_in-> cat:PET_oncological
+cat:O-15 -used_in-> cat:PET_cardiovascular
+cat:O-15 -used_in-> cat:PET_other  
+cat:O-15 -used_in-> cat:PET_neurological
+cat:Y-86 -used_in-> cat:PET_oncological
+cat:Rb-82 -used_in-> cat:PET_cardiovascular
+cat:Rb-82 -used_in-> cat:PET_other
+cat:Tc-99m -used_in-> cat:RBC_labeling 
+cat:Zr-89 -used_in-> cat:PET_oncological
+
+cat:C-14 -used_in-> cat:tracer_kinetics
+cat:P-32 -used_in-> cat:tracer_kinetics
+cat:Co-57 -used_in-> cat:tracer_kinetics
+cat:Cr-51 -used_in-> cat:tracer_kinetics
+cat:Fe-59 -used_in-> cat:tracer_kinetics
+cat:In-111 -used_in-> cat:tracer_kinetics
+cat:I-131 -used_in-> cat:tracer_kinetics
+
+cat:Tc-99m -used_in-> cat:cardiac_stress_test
+cat:Tl-201 -used_in-> cat:cardiac_stress_test
+
+cat:I-131 -used_in-> cat:radioimmunotherapy
+cat:Y-90 -used_in-> cat:radioimmunotherapy
+
+cat:Bi-213 -user_in-> cat:targeted_alpha_therapy
+cat:Pb-212 -user_in-> cat:targeted_alpha_therapy
+
+cat:B-11 -used_in-> cat:boron_neutron_capture_therapy
+
+cat:Co-60 -used_in-> cat:external_beam_radiotherapy
+cat:Cs-137 -used_in-> cat:external_beam_radiotherapy
+cat:Au-198 -used_in-> cat:external_beam_radiotherapy
+cat:Cf-252 -used_in-> cat:external_beam_radiotherapy
+
+cat:Y-90 -used_in-> cat:brachytherapy
+cat:Pd-103 -used_in-> cat:brachytherapy
+cat:Cs-131 -used_in-> cat:brachytherapy
+cat:I-125 -used_in-> cat:brachytherapy
+cat:Ir-192 -used_in-> cat:brachytherapy
+
+cat:Rh-186 -used_in-> cat:pain_palliation
+cat:Sa-153 -used_in-> cat:pain_palliation
+cat:Sr-89 -used_in-> cat:pain_palliation
+
+cat:Dy-165 -used_in-> cat:arthritis_treatment
+cat:Er-169 -used_in-> cat:arthritis_treatment
+
+cat:Co-57 -used_in-> cat:calibration
+cat:Ce-139 -used_in-> cat:calibration

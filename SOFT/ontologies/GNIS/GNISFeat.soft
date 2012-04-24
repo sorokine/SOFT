@@ -1,0 +1,388 @@
+#
+# compiled from the U.S. Board on Geographic Names Feature Class Definitions document
+# for details see http://geonames.usgs.gov/domestic/download_data.htm
+#
+
+cat:Airport -subcat-> cat:GNIS_Features
+cat:airfield -subcat-> cat:Airport
+cat:airstrip -subcat-> cat:Airport
+cat:landing_field -subcat-> cat:Airport
+cat:landing_strip -subcat-> cat:Airport
+
+cat:Arch -subcat-> cat:GNIS_Features
+cat:bridge -subcat-> cat:Arch
+cat:natural_bridge -subcat-> cat:Arch
+cat:sea_arch -subcat-> cat:Arch
+
+cat:Area -subcat-> cat:GNIS_Features
+cat:badlands -subcat-> cat:Area
+cat:barren -subcat-> cat:Area
+cat:delta -subcat-> cat:Area
+cat:fan -subcat-> cat:Area
+cat:garden -subcat-> cat:Area
+
+cat:Arroyo -subcat-> cat:GNIS_Features
+cat:coulee -subcat-> cat:Arroyo
+cat:draw -subcat-> cat:Arroyo
+cat:gully -subcat-> cat:Arroyo
+cat:wash -subcat-> cat:Arroyo
+
+cat:Bar -subcat-> cat:GNIS_Features
+cat:ledge -subcat-> cat:Bar
+cat:reef -subcat-> cat:Bar
+cat:sandbar -subcat-> cat:Bar
+cat:shoal -subcat-> cat:Bar
+cat:spit -subcat-> cat:Bar
+
+cat:Basin -subcat-> cat:GNIS_Features
+cat:amphitheater -subcat-> cat:Basin
+cat:cirque -subcat-> cat:Basin
+cat:pit -subcat-> cat:Basin
+cat:sink -subcat-> cat:Basin
+
+cat:Bay -subcat-> cat:GNIS_Features
+cat:arm -subcat-> cat:Bay
+cat:bight -subcat-> cat:Bay
+cat:cove -subcat-> cat:Bay
+cat:estuary -subcat-> cat:Bay
+cat:gulf -subcat-> cat:Bay
+cat:inlet -subcat-> cat:Bay
+cat:sound -subcat-> cat:Bay
+
+cat:Beach -subcat-> cat:GNIS_Features
+cat:coast -subcat-> cat:Beach
+cat:shore -subcat-> cat:Beach
+cat:strand -subcat-> cat:Beach
+
+cat:Bench -subcat-> cat:GNIS_Features
+cat:level -subcat-> cat:Bench
+
+cat:Bend -subcat-> cat:GNIS_Features
+cat:bottom -subcat-> cat:Bend
+cat:loop -subcat-> cat:Bend
+cat:meander -subcat-> cat:Bend
+
+cat:Bridge -subcat-> cat:GNIS_Features
+cat:causeway -subcat-> cat:Bridge
+cat:overpass -subcat-> cat:Bridge
+cat:trestle -subcat-> cat:Bridge
+
+cat:Building -subcat-> cat:GNIS_Features
+
+cat:Canal -subcat-> cat:GNIS_Features
+cat:ditch -subcat-> cat:Canal
+cat:lateal -subcat-> cat:Canal
+
+cat:Cape -subcat-> cat:GNIS_Features
+cat:lea -subcat-> cat:Cape
+cat:neck -subcat-> cat:Cape
+cat:peninsula -subcat-> cat:Cape
+cat:point -subcat-> cat:Cape
+
+cat:Cave -subcat-> cat:GNIS_Features
+cat:cavern -subcat-> cat:Cave
+cat:grotto -subcat-> cat:Cave
+
+cat:Cemetery -subcat-> cat:GNIS_Features
+cat:burial -subcat-> cat:Cemetery
+cat:burying_ground -subcat-> cat:Cemetery
+cat:grave -subcat-> cat:Cemetery
+cat:memorial_garden -subcat-> cat:Cemetery
+
+cat:Census -subcat-> cat:GNIS_Features
+cat:census_designated_place -subcat-> cat:Census
+cat:census_county_division -subcat-> cat:Census
+cat:unorganized_territory -subcat-> cat:Census
+cat:alaskan_and_indian_areas -subcat-> cat:Census
+
+cat:Channel -subcat-> cat:GNIS_Features
+cat:passage -subcat-> cat:Channel
+cat:reach -subcat-> cat:Channel
+cat:strait -subcat-> cat:Channel
+cat:thoroughfare -subcat-> cat:Channel
+cat:throughfare -subcat-> cat:Channel
+
+cat:Church -subcat-> cat:GNIS_Features
+cat:chapel -subcat-> cat:Church
+cat:mosque -subcat-> cat:Church
+cat:synagogue -subcat-> cat:Church
+cat:tabernacle -subcat-> cat:Church
+cat:temple -subcat-> cat:Church
+
+cat:Civil -subcat-> cat:GNIS_Features
+cat:borough -subcat-> cat:Civil
+cat:county -subcat-> cat:Civil
+cat:incorporated_place -subcat-> cat:Civil
+cat:municipio -subcat-> cat:Civil
+cat:parish -subcat-> cat:Civil
+cat:town -subcat-> cat:Civil
+cat:township -subcat-> cat:Civil
+
+cat:Cliff -subcat-> cat:GNIS_Features
+cat:bluff -subcat-> cat:Cliff
+cat:crag -subcat-> cat:Cliff
+cat:head -subcat-> cat:Cliff
+cat:headland -subcat-> cat:Cliff
+cat:nose -subcat-> cat:Cliff
+cat:palisades -subcat-> cat:Cliff
+cat:precipice -subcat-> cat:Cliff
+cat:promontory -subcat-> cat:Cliff
+cat:rim -subcat-> cat:Cliff
+cat:rimrock -subcat-> cat:Cliff
+
+cat:Crater -subcat-> cat:GNIS_Features
+cat:caldera -subcat-> cat:Crater
+cat:lua -subcat-> cat:Crater
+
+cat:Crossing -subcat-> cat:GNIS_Features
+cat:overpass -subcat-> cat:Crossing
+cat:underpass -subcat-> cat:Crossing
+
+cat:Dam -subcat-> cat:GNIS_Features
+cat:breakwater -subcat-> cat:Dam
+cat:dike -subcat-> cat:Dam
+cat:jetty -subcat-> cat:Dam
+
+cat:Falls -subcat-> cat:GNIS_Features
+cat:cascade -subcat-> cat:Falls
+cat:cataract -subcat-> cat:Falls
+cat:waterfall -subcat-> cat:Falls
+
+cat:Flat -subcat-> cat:GNIS_Features
+cat:clearing -subcat-> cat:Flat
+cat:glade -subcat-> cat:Flat
+cat:playa -subcat-> cat:Flat
+
+cat:Forest -subcat-> cat:GNIS_Features
+cat:national_forest -subcat-> cat:Forest
+cat:national_grasslands -subcat-> cat:Forest
+cat:State_forest -subcat-> cat:Forest
+
+cat:Gap -subcat-> cat:GNIS_Features
+cat:col -subcat-> cat:Gap
+cat:notch -subcat-> cat:Gap
+cat:pass -subcat-> cat:Gap
+cat:saddle -subcat-> cat:Gap
+cat:water_gap -subcat-> cat:Gap
+cat:wind_gap -subcat-> cat:Gap
+
+cat:Glacier -subcat-> cat:GNIS_Features
+cat:icefield -subcat-> cat:Glacier
+cat:ice_patch -subcat-> cat:Glacier
+cat:snow_patch -subcat-> cat:Glacier
+
+cat:Gut -subcat-> cat:GNIS_Features
+cat:creek -subcat-> cat:Gut
+cat:inlet -subcat-> cat:Gut
+cat:slough -subcat-> cat:Gut
+
+cat:Harbor -subcat-> cat:GNIS_Features
+cat:hono -subcat-> cat:Harbor
+cat:port -subcat-> cat:Harbor
+cat:roads -subcat-> cat:Harbor
+cat:roadstead -subcat-> cat:Harbor
+
+cat:Hospital -subcat-> cat:GNIS_Features
+cat:infirmary -subcat-> cat:Hospital
+
+cat:Island -subcat-> cat:GNIS_Features
+cat:archipelago -subcat-> cat:Island
+cat:atoll -subcat-> cat:Island
+cat:cay -subcat-> cat:Island
+cat:hammock -subcat-> cat:Island
+cat:hummock -subcat-> cat:Island
+cat:isla -subcat-> cat:Island
+cat:isle -subcat-> cat:Island
+cat:key -subcat-> cat:Island
+cat:moku -subcat-> cat:Island
+cat:rock -subcat-> cat:Island
+
+cat:Isthmus -subcat-> cat:GNIS_Features
+
+cat:Lake -subcat-> cat:GNIS_Features
+cat:backwater -subcat-> cat:Lake
+cat:lac -subcat-> cat:Lake
+cat:lagoon -subcat-> cat:Lake
+cat:laguna -subcat-> cat:Lake
+cat:pond -subcat-> cat:Lake
+cat:pool -subcat-> cat:Lake
+cat:resaca -subcat-> cat:Lake
+cat:waterhole -subcat-> cat:Lake
+
+cat:Lava -subcat-> cat:GNIS_Features
+cat:kepula -subcat-> cat:Lava
+cat:lava_flow -subcat-> cat:Lava
+
+cat:Levee -subcat-> cat:GNIS_Features
+cat:bank -subcat-> cat:Levee
+cat:berm -subcat-> cat:Levee
+
+cat:Locale -subcat-> cat:GNIS_Features
+cat:battlefield -subcat-> cat:Locale
+cat:crossroad -subcat-> cat:Locale
+cat:camp -subcat-> cat:Locale
+cat:farm -subcat-> cat:Locale
+cat:ghost_town -subcat-> cat:Locale
+cat:landing -subcat-> cat:Locale
+cat:railroad_siding -subcat-> cat:Locale
+cat:ranch -subcat-> cat:Locale
+cat:ruins -subcat-> cat:Locale
+cat:site -subcat-> cat:Locale
+cat:station -subcat-> cat:Locale
+cat:windmill -subcat-> cat:Locale
+
+cat:Military -subcat-> cat:GNIS_Features
+
+cat:Mine -subcat-> cat:GNIS_Features
+cat:pit -subcat-> cat:Mine
+cat:quarry -subcat-> cat:Mine
+cat:shaft -subcat-> cat:Mine
+
+cat:Oilfield -subcat-> cat:GNIS_Features
+
+cat:Park -subcat-> cat:GNIS_Features
+cat:national_historical_landmark -subcat-> cat:Park
+cat:national_park -subcat-> cat:Park
+cat:State_park -subcat-> cat:Park
+cat:wilderness_area -subcat-> cat:Park
+
+cat:Pillar -subcat-> cat:GNIS_Features
+cat:chimney -subcat-> cat:Pillar
+cat:monument -subcat-> cat:Pillar
+cat:pinnacle -subcat-> cat:Pillar
+cat:pohaku -subcat-> cat:Pillar
+cat:rock_tower -subcat-> cat:Pillar
+
+cat:Plain -subcat-> cat:GNIS_Features
+cat:grassland -subcat-> cat:Plain
+cat:highland -subcat-> cat:Plain
+cat:kula -subcat-> cat:Plain
+cat:plateau -subcat-> cat:Plain
+cat:upland -subcat-> cat:Plain
+
+cat:PopulatedPlace -subcat-> cat:GNIS_Features
+cat:city -subcat-> cat:PopulatedPlace
+cat:settlement -subcat-> cat:PopulatedPlace
+cat:town -subcat-> cat:PopulatedPlace
+cat:village -subcat-> cat:PopulatedPlace
+
+cat:PostOffice -subcat-> cat:GNIS_Features
+
+cat:Range -subcat-> cat:GNIS_Features
+cat:cordillera -subcat-> cat:Range
+cat:sierra -subcat-> cat:Range
+
+cat:Rapids -subcat-> cat:GNIS_Features
+cat:riffle -subcat-> cat:Rapids
+cat:ripple -subcat-> cat:Rapids
+
+cat:Reserve -subcat-> cat:GNIS_Features
+
+cat:Reservoir -subcat-> cat:GNIS_Features
+cat:lake -subcat-> cat:Reservoir
+cat:tank -subcat-> cat:Reservoir
+
+cat:Ridge -subcat-> cat:GNIS_Features
+cat:crest -subcat-> cat:Ridge
+cat:cuesta -subcat-> cat:Ridge
+cat:escarpment -subcat-> cat:Ridge
+cat:hogback -subcat-> cat:Ridge
+cat:lae -subcat-> cat:Ridge
+cat:rim -subcat-> cat:Ridge
+cat:spur -subcat-> cat:Ridge
+
+cat:School -subcat-> cat:GNIS_Features
+cat:academy -subcat-> cat:School
+cat:college -subcat-> cat:School
+cat:high_school -subcat-> cat:School
+cat:university -subcat-> cat:School
+
+cat:Sea -subcat-> cat:GNIS_Features
+cat:gulf -subcat-> cat:Sea
+cat:ocean -subcat-> cat:Sea
+
+cat:Slope -subcat-> cat:GNIS_Features
+cat:grade -subcat-> cat:Slope
+cat:pitch -subcat-> cat:Slope
+
+cat:Spring -subcat-> cat:GNIS_Features
+cat:seep -subcat-> cat:Spring
+
+cat:Stream -subcat-> cat:GNIS_Features
+cat:anabranch -subcat-> cat:Stream
+cat:awawa -subcat-> cat:Stream
+cat:bayou -subcat-> cat:Stream
+cat:branch -subcat-> cat:Stream
+cat:brook -subcat-> cat:Stream
+cat:creek -subcat-> cat:Stream
+cat:distributary -subcat-> cat:Stream
+cat:fork -subcat-> cat:Stream
+cat:kill -subcat-> cat:Stream
+cat:pup -subcat-> cat:Stream
+cat:rio -subcat-> cat:Stream
+cat:river -subcat-> cat:Stream
+cat:run -subcat-> cat:Stream
+cat:slough -subcat-> cat:Stream
+
+cat:Summit -subcat-> cat:GNIS_Features
+cat:ahu -subcat-> cat:Summit
+cat:berg -subcat-> cat:Summit
+cat:bald -subcat-> cat:Summit
+cat:butte -subcat-> cat:Summit
+cat:cerro -subcat-> cat:Summit
+cat:colina -subcat-> cat:Summit
+cat:cone -subcat-> cat:Summit
+cat:cumbre -subcat-> cat:Summit
+cat:dome -subcat-> cat:Summit
+cat:head -subcat-> cat:Summit
+cat:hill -subcat-> cat:Summit
+cat:horn -subcat-> cat:Summit
+cat:knob -subcat-> cat:Summit
+cat:knoll -subcat-> cat:Summit
+cat:mauna -subcat-> cat:Summit
+cat:mesa -subcat-> cat:Summit
+cat:mesita -subcat-> cat:Summit
+cat:mound -subcat-> cat:Summit
+cat:mount -subcat-> cat:Summit
+cat:mountain -subcat-> cat:Summit
+cat:peak -subcat-> cat:Summit
+cat:puu -subcat-> cat:Summit
+cat:rock -subcat-> cat:Summit
+cat:sugarloaf -subcat-> cat:Summit
+cat:table -subcat-> cat:Summit
+cat:volcano -subcat-> cat:Summit
+
+cat:Swamp -subcat-> cat:GNIS_Features
+cat:bog -subcat-> cat:Swamp
+cat:cienega -subcat-> cat:Swamp
+cat:marais -subcat-> cat:Swamp
+cat:marsh -subcat-> cat:Swamp
+cat:pocosin -subcat-> cat:Swamp
+
+cat:Tower -subcat-> cat:GNIS_Features
+
+cat:Trail -subcat-> cat:GNIS_Features
+cat:jeep_trail -subcat-> cat:Trail
+cat:path -subcat-> cat:Trail
+cat:ski_trail -subcat-> cat:Trail
+
+cat:Tunnel -subcat-> cat:GNIS_Features
+
+cat:Unknown -subcat-> cat:GNIS_Features
+
+cat:Valley -subcat-> cat:GNIS_Features
+cat:barranca -subcat-> cat:Valley
+cat:canyon -subcat-> cat:Valley
+cat:chasm -subcat-> cat:Valley
+cat:cove -subcat-> cat:Valley
+cat:draw -subcat-> cat:Valley
+cat:glen -subcat-> cat:Valley
+cat:gorge -subcat-> cat:Valley
+cat:gulch -subcat-> cat:Valley
+cat:gulf -subcat-> cat:Valley
+cat:hollow -subcat-> cat:Valley
+cat:ravine -subcat-> cat:Valley
+
+cat:Well -subcat-> cat:GNIS_Features
+
+cat:Woods -subcat-> cat:GNIS_Features

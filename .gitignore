@@ -1,0 +1,13 @@
+*.pdf
+examples/*
+.DS_Store
+*.oo3/*
+*.ps
+temp/*
+*.gv
+
+# distrib diretories, remove later
+bin/*
+lib/*
+man/*
+share/*

@@ -1,0 +1,358 @@
+# this is a comment (ignored)
+
+[Chemistry]
+
+[[Elements]]
+cat:H-3 -isotope-> cat:Hydrogen
+cat:Tritium -synonym-> cat:H-3
+cat:H-3 -is_a-> cat:industrial_isotope
+
+cat:Kr-81m -isotope-> cat:Krypton
+cat:Kr-81m -is_a-> cat:medical_isotope
+cat:Kr-85 -isotope-> cat:Krypton
+cat:Kr-85 -is_a-> cat:medical_isotope
+
+
+cat:Xe-127 -isotope-> cat:Xenon
+cat:Xe-127 -is_a-> cat:medical_isotope
+cat:Xe-133 -isotope-> cat:Xenon
+cat:Xe-133 -is_a-> cat:medical_isotope
+
+cat:Rn-210 -isotope-> cat:Radon
+cat:Rn-211 -isotope-> cat:Radon
+cat:Rn-222 -isotope-> cat:Radon
+cat:Rn-224 -isotope-> cat:Radon
+
+cat:Na-22 -isotope-> cat:Sodium
+cat:Na-22 -is_a-> cat:medical_isotope
+cat:Na-24 -isotope-> cat:Sodium  
+cat:Na-24 -is_a-> cat:medical_isotope
+
+cat:K-40 -isotope-> cat:Potassium
+cat:K-40 -is_a-> cat:norm_isotope
+cat:K-42 -isotope-> cat:Potassium
+cat:K-42 -is_a-> cat:medical_isotope
+
+cat:Rb-81 -isotope-> cat:Rubidium
+cat:Rb-81 -is_a-> cat:medical_isotope
+cat:Rb-81 -progenitor_for-> cat:Kr-81m
+cat:Rb-82 -isotope-> cat:Rubidium
+cat:Rb-82 -is_a-> cat:medical_isotope
+cat:Rb-82m -isotope-> cat:Rubidium
+cat:Rb-82m -is_a-> cat:medical_isotope
+
+cat:Cs-134 -isotope-> cat:Cesium
+cat:Cs-135 -isotope-> cat:Cesium
+cat:Cs-137 -isotope-> cat:Cesium
+cat:Cs-137 -is_a-> cat:industrial_isotope
+cat:Cs-137 -is_a-> cat:medical_isotope
+
+cat:Fr-221 -isotope-> cat:Francium
+cat:Fr-222 -isotope-> cat:Francium
+cat:Fr-223 -isotope-> cat:Francium
+
+cat:Be-7 -isotope-> cat:Beryllium
+cat:Be-10 -isotope-> cat:Beryllium
+
+cat:Sr-82 -isotope-> cat:Strontium
+cat:Sr-82 -is_a-> cat:medical_isotope
+cat:Sr-83 -isotope-> cat:Strontium
+cat:Sr-85 -isotope-> cat:Strontium
+cat:Sr-87m -isotope-> cat:Strontium
+cat:Sr-87m -is_a-> cat:medical_isotope
+cat:Sr-89 -isotope-> cat:Strontium
+cat:Sr-89 -is_a-> cat:medical_isotope
+cat:Sr-90 -isotope-> cat:Strontium
+cat:Sr-90 -is_a-> cat:medical_isotope
+cat:Sr-90 -isotope-> cat:Strontium
+cat:Sr-90 -is_a-> cat:industrial_isotope
+
+cat:Ba-133 -isotope-> cat:Barium
+cat:Ba-133 -is_a-> cat:medical_isotope
+
+cat:Ra-226 -isotope-> cat:Radium
+cat:Ra-226 -is_a-> cat:industrial_isotope
+cat:Ra-226 -is_a-> cat:norm_isotope
+cat:Ra-228 -isotope-> cat:Radium
+cat:Ra-228 -is_a-> cat:norm_isotope
+
+cat:Ge-68 -isotope-> cat:Germanium
+cat:Ge-68 -is_a-> cat:medical_isotope
+cat:Ge-68 -progenitor_for-> cat:Ga-68
+
+cat:As-74 -isotope-> cat:Arsenic
+cat:As-74 -is_a-> cat:medical_isotope
+
+cat:Te-125m -isotope-> cat:Tellurium
+cat:Te-125m -is_a-> cat:medical_isotope
+
+cat:Po-208 -isotope-> cat:Polonium
+cat:Po-209 -isotope-> cat:Polonium
+cat:Po-210 -isotope-> cat:Polonium
+cat:Po-210 -is_a-> cat:medical_isotope
+
+cat:C-11 -isotope-> cat:Carbon
+cat:C-11 -is_a-> cat:medical_isotope
+cat:C-14 -isotope-> cat:Carbon
+cat:C-11 -is_a-> cat:industrial_isotope
+
+cat:N-13 -isotope-> cat:Nitrogen
+cat:N-13 -is_a-> cat:medical_isotope
+
+cat:O-15 -isotope-> cat:Oxygen
+cat:O-15 -is_a-> cat:medical_isotope
+
+cat:P-32 -isotope-> cat:Phosphorus
+cat:P-32 -is_a-> cat:medical_isotope
+
+cat:Se-75 -isotope-> cat:Selenium
+cat:Se-75 -is_a-> cat:medical_isotope
+
+cat:F-18 -isotope-> cat:Fluorine
+cat:F-18 -is_a-> cat:medical_isotope
+
+cat:Cl-36 -isotope-> cat:Chlorine
+cat:Cl-36 -is_a-> cat:industrial_isotope
+
+cat:Br-76 -isotope-> cat:Bromine
+cat:Br-76 -is_a-> cat:medical_isotope
+
+cat:I-123 -isotope-> cat:Iodine
+cat:I-123 -is_a-> cat:medical_isotope
+cat:I-124 -isotope-> cat:Iodine
+cat:I-124 -is_a-> cat:medical_isotope
+cat:I-125 -isotope-> cat:Iodine
+cat:I-125 -is_a-> cat:medical_isotope
+cat:I-129 -isotope-> cat:Iodine
+cat:I-129 -is_a-> cat:medical_isotope
+cat:I-131 -isotope-> cat:Iodine
+cat:I-131 -is_a-> cat:medical_isotope
+
+cat:At-210 -isotope-> cat:Astatine
+cat:At-211 -isotope-> cat:Astatine
+
+cat:Ga-66 -isotope-> cat:Gallium
+cat:Ga-66 -is_a-> cat:medical_isotope
+cat:Ga-67 -isotope-> cat:Gallium
+cat:Ga-67 -is_a-> cat:medical_isotope
+cat:Ga-68 -isotope-> cat:Gallium
+cat:Ga-68 -is_a-> cat:medical_isotope
+
+cat:In-111 -isotope-> cat:Indium
+cat:In-111 -is_a-> cat:medical_isotope
+cat:In-113m -isotope-> cat:Indium
+cat:In-113m -is_a-> cat:medical_isotope
+cat:In-115 -isotope-> cat:Indium
+
+cat:Sn-117m -isotope-> cat:Tin
+cat:Sn-117m -is_a-> cat:medical_isotope
+
+cat:Tl-201 -isotope-> cat:Thallium
+cat:Tl-201 -is_a-> cat:medical_isotope
+cat:Tl-204 -isotope-> cat:Thallium
+cat:Tl-204 -is_a-> cat:industrial_isotope
+
+cat:Pb-204 -isotope-> cat:Lead
+cat:Pb-210 -isotope-> cat:Lead
+cat:Pb-210 -is_a-> cat:norm_isotope
+cat:Pb-210 -is_a-> cat:industrial_isotope
+
+cat:Bi-213 -isotope-> cat:Bismuth
+cat:Bi-213 -is_a-> cat:medical_isotope
+
+cat:Sc-46 -isotope-> cat:Scandium
+cat:Sc-46 -is_a-> cat:industrial_isotope
+
+cat:V-50 -isotope-> cat:Vanadium
+
+cat:Cr-50 -isotope-> cat:Chromium
+cat:Cr-51 -isotope-> cat:Chromium
+cat:Cr-51 -is_a-> cat:medical_isotope
+cat:Cr-57 -isotope-> cat:Chromium
+cat:Cr-57 -is_a-> cat:industrial_isotope
+
+cat:Mn-54 -isotope-> cat:Manganese 
+cat:Mn-54 -is_a-> cat:medical_isotope
+cat:Mn-54 -is_a-> cat:industrial_isotope
+
+cat:Fe-52 -isotope-> cat:Iron
+cat:Fe-52 -is_a-> cat:medical_isotope
+cat:Fe-54 -isotope-> cat:Iron
+cat:Fe-55 -isotope-> cat:Iron
+cat:Fe-59 -isotope-> cat:Iron
+cat:Fe-59 -is_a-> cat:medical_isotope
+
+cat:Co-56 -isotope-> cat:Cobalt
+cat:Co-57 -isotope-> cat:Cobalt
+cat:Co-57 -is_a-> cat:medical_isotope
+cat:Co-57 -is_a-> cat:industrial_isotope
+cat:Co-58 -isotope-> cat:Cobalt
+cat:Co-58 -is_a-> cat:medical_isotope
+cat:Co-60 -isotope-> cat:Cobalt
+cat:Co-60 -is_a-> cat:medical_isotope
+cat:Co-60 -is_a-> cat:industrial_isotope
+
+cat:Ni-63 -stable-> cat:Nickel
+cat:Ni-63 -is_a-> cat:industrial_isotope
+
+cat:Cu-61 -isotope-> cat:Copper
+cat:Cu-61 -is_a-> cat:medical_isotope
+cat:Cu-62 -isotope-> cat:Copper
+cat:Cu-64 -isotope-> cat:Copper
+cat:Cu-64 -is_a-> cat:medical_isotope
+cat:Cu-67 -isotope-> cat:Copper
+cat:Cu-67 -is_a-> cat:medical_isotope
+
+cat:Zn-65 -isotope-> cat:Zinc
+cat:Zn-65 -is_a-> cat:medical_isotope
+cat:Zn-65 -is_a-> cat:industrial_isotope
+
+cat:Y-86 -isotope-> cat:Yttrium
+cat:Y-86 -is_a-> cat:medical_isotope
+cat:Y-90 -isotope-> cat:Yttrium
+cat:Y-90 -is_a-> cat:medical_isotope
+
+cat:Zr-89 -isotope-> cat:Zirconium
+cat:Zr-89 -is_a-> cat:medical_isotope
+
+cat:Mo-93 -isotope-> cat:Molybdenum
+cat:Mo-99 -isotope-> cat:Molybdenum
+cat:Mo-99 -is_a-> cat:medical_isotope
+cat:Mo-99 -progenitor_for-> cat:Tc-99m
+cat:Mo-100 -isotope-> cat:Molybdenum
+
+cat:Tc-95m -isotope-> cat:Technetium
+cat:Tc-96 -isotope-> cat:Technetium
+cat:Tc-97 -isotope-> cat:Technetium
+cat:Tc-97m -isotope-> cat:Technetium
+cat:Tc-98m -isotope-> cat:Technetium
+cat:Tc-99 -isotope-> cat:Technetium
+cat:Tc-99m -isotope-> cat:Technetium
+cat:Tc-99m -is_a-> cat:medical_isotope
+
+cat:Pd-103 -isotope-> cat:Palladium
+cat:Pd-103 -is_a-> cat:medical_isotope
+
+cat:Ag-110m -stable-> cat:Silver
+cat:Ag-110m -is_a-> cat:industrial_isotope
+
+cat:Cd-108 -isotope-> cat:Cadmium
+cat:Cd-109 -isotope-> cat:Cadmium
+cat:Cd-109 -is_a-> cat:medical_isotope
+cat:Cd-114 -isotope-> cat:Cadmium
+cat:Cd-116 -isotope-> cat:Cadmium
+
+cat:Lu-175 -isotope-> cat:Lutetium
+cat:Lu-175 -is_a-> cat:medical_isotope
+cat:Lu-177 -isotope-> cat:Lutetium
+cat:Lu-177 -is_a-> cat:medical_isotope
+
+cat:W-188 -isotope-> cat:Tungsten
+cat:W-188 -is_a-> cat:medical_isotope
+
+cat:Re-186 -isotope-> cat:Rhenium
+cat:Re-186 -is_a-> cat:medical_isotope
+cat:Re-188 -isotope-> cat:Rhenium
+cat:Re-188 -is_a-> cat:medical_isotope
+
+cat:Ir-192 -isotope-> cat:Iridium
+cat:Ir-192 -is_a-> cat:medical_isotope
+cat:Ir-192 -is_a-> cat:industrial_isotope
+
+cat:Au-198 -isotope-> cat:Gold
+cat:Au-198 -is_a-> cat:medical_isotope 
+
+cat:La-140 -stable-> cat:Lanthanum
+cat:La-140 -is_a-> cat:industrial_isotope
+
+cat:Pr-147 -isotope-> cat:Promethium 
+
+cat:Sm-153 -isotope-> cat:Samarium
+cat:Sm-153 -is_a-> cat:medical_isotope
+
+cat:Eu-151 -isotope-> cat:Europium
+cat:Eu-152 -isotope-> cat:Europium
+cat:Eu-152 -is_a-> cat:medical_isotope
+
+cat:Gd-152 -isotope-> cat:Gadolinium
+cat:Gd-153 -isotope-> cat:Gadolinium
+cat:Gd-153 -is_a-> cat:medical_isotope
+cat:Gd-160 -isotope-> cat:Gadolinium
+
+cat:Dy-154 -isotope-> cat:Dysprosium                                           
+cat:Dy-165 -isotope-> cat:Dysprosium
+cat:Dy-165 -is_a-> cat:medical_isotope
+
+cat:Ho-166 -medical_isotope-> cat:Holmium
+
+cat:Er-169 -isotope-> cat:Erbium
+cat:Er-169 -is_a-> cat:medical_isotope
+
+cat:Yb-169 -isotope-> cat:Ytterbium
+cat:Yb-169 -is_a-> cat:medical_isotope
+cat:Yb-169 -is_a-> cat:industrial_isotope
+cat:Yb-177 -isotope-> cat:Ytterbium
+cat:Yb-177 -is_a-> cat:medical_isotope
+cat:Yb-177 -progenitor_for-> cat:Lu-177
+
+cat:Ac-225 -isotope-> cat:Actinium
+cat:Ac-225 -is_a-> cat:medical_isotope
+cat:Ac-227 -isotope-> cat:Actinium
+
+cat:Th-228 -isotope-> cat:Thorium
+cat:Th-228 -is_a-> cat:norm_isotope
+cat:Th-232 -isotope-> cat:Thorium
+cat:Th-232 -is_a-> cat:norm_isotope
+
+cat:Pa-231 -isotope-> cat:Protactinium
+cat:Pa-234m -isotope-> cat:Protactinium
+cat:Pa-234m -is_a-> cat:snm_isotope
+
+cat:U-232 -isotope-> cat:Uranium
+cat:U-232 -is_a-> cat:snm_isotope
+cat:U-233 -isotope-> cat:Uranium
+cat:U-234 -isotope-> cat:Uranium
+cat:U-234 -is_a-> cat:snm_isotope
+cat:U-235 -isotope-> cat:Uranium
+cat:U-235 -is_a-> cat:snm_isotope
+cat:U-236 -isotope-> cat:Uranium
+cat:U-238 -isotope-> cat:Uranium
+cat:U-238 -is_a-> cat:snm_isotope
+
+cat:Np-235 -isotope-> cat:Neptunium
+cat:Np-236 -isotope-> cat:Neptunium
+cat:Np-237 -isotope-> cat:Neptunium
+
+cat:Pu-238 -isotope-> cat:Plutonium
+cat:Pu-238 -is_a-> cat:snm_isotope
+cat:Pu-239 -isotope-> cat:Plutonium
+cat:Pu-239 -is_a-> cat:snm_isotope
+cat:Pu-240 -isotope-> cat:Plutonium
+cat:Pu-240 -is_a-> cat:snm_isotope
+cat:Pu-241 -isotope-> cat:Plutonium
+cat:Pu-241 -is_a-> cat:snm_isotope
+cat:Pu-242 -isotope-> cat:Plutonium
+cat:Pu-242 -is_a-> cat:snm_isotope
+cat:Pu-244 -isotope-> cat:Plutonium
+
+cat:Am-241 -isotope-> cat:Americium
+cat:Am-241 -is_a-> cat:snm_isotope
+cat:Am-241 -is_a-> cat:industrial_isotope
+cat:Am-242m -isotope-> cat:Americium
+cat:Am-243 -isotope-> cat:Americium
+
+cat:Cm-247 -isotope-> cat:Curium
+cat:Cm-248 -isotope-> cat:Curium
+
+cat:Bk-249 -isotope-> cat:Berkelium
+
+cat:Ca-249 -isotope-> cat:Californium
+cat:Ca-250 -isotope-> cat:Californium
+cat:Ca-251 -isotope-> cat:Californium
+cat:Ca-252 -isotope-> cat:Californium
+
+cat:Es-252 -isotope-> cat:Einsteinium
+cat:Es-254 -isotope-> cat:Einsteinium
+
+cat:Fm-257 -isotope-> cat:Fermium
+

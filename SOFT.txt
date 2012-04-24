@@ -1,0 +1,12 @@
+
+             Simple Ontology FormaT (*.soft)
+
+[section]
+[[subsection]]
+entity_type:enity_name -relation_name-> entity_type:enity_name 
+
+* denotes an entity that does not belong to current section
+
+relation may be reversed
+
+

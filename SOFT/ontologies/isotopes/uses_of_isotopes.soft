@@ -1,0 +1,65 @@
+# this is a comment (ignored)
+
+[Uses of Isotopes]
+
+cat:medical_procedure -subcat-> cat:uses_of_isotopes
+cat:industrial_isotope -subcat-> cat:uses_of_isotopes
+cat:snm_isotope -subcat-> cat:uses_of_isotopes
+cat:norm_isotope -subcat-> cat:uses_of_isotopes
+cat:calibration -subcat-> cat:uses_of_isotopes
+
+[[Medical]]
+cat:diagnosis -subcat-> cat:medical_procedure
+cat:therapy -subcat-> cat:medical_procedure
+cat:radioguided_surgery -subcat-> cat:medical_procedure
+
+cat:external_beam_radiotherapy -subcat-> cat:therapy
+cat:radioimmunotherapy -subcat-> cat:therapy
+cat:targeted_alpha_therapy -subcat-> cat:therapy
+cat:brachytherapy -subcat-> cat:therapy
+cat:systemic_radioisotpe_therapy -subcat-> cat:therapy
+cat:boron_neutron_capture_therapy -subcat-> cat:therapy
+cat:arthritis_treatment -subcat-> cat:therapy
+cat:pain_palliation -subcat-> cat:therapy
+
+cat:non_imaging -subcat-> cat:diagnosis
+cat:tracer_kinetics -subcat-> cat:non_imaging
+cat:cardiac_stress_test -subcat-> cat:non_imaging
+
+cat:imaging -subcat-> cat:diagnosis
+cat:SPECT -subcat-> cat:imaging
+cat:PET -subcat-> cat:imaging
+cat:planar_gamma_camera -subcat-> cat:imaging
+cat:large_FOV_camera -subcat-> cat:imaging
+
+[[Industrial]]
+cat:maunfacturing -subcat-> cat:industrial_isotope
+cat:chemical_processing -subcat-> cat:industrial_isotope 
+cat:materials_processing  -subcat-> cat:industrial_isotope
+cat:consumer_products  -subcat-> cat:industrial_isotope
+cat:construction  -subcat-> cat:industrial_isotope
+cat:non_distructive_examination  -subcat-> cat:industrial_isotope
+cat:agriculture  -subcat-> cat:industrial_isotope
+cat:coastal_engineering  -subcat-> cat:industrial_isotope
+cat:hydrology  -subcat-> cat:industrial_isotope
+cat:coal_fired_boilers  -subcat-> cat:industrial_isotope
+cat:oil_refining  -subcat-> cat:industrial_isotope
+cat:mineral_processing  -subcat-> cat:industrial_isotope
+cat:drilling  -subcat-> cat:industrial_isotope
+
+[[SNM]]
+cat:plutonium_isotopes -subcat-> cat:snm_isotope
+cat:uranium_isotopes -subcat-> cat:snm_isotope
+
+[[NORM]]
+cat:radon  -subcat-> cat:norm_isotope
+cat:soil -subcat-> cat:norm_isotope
+cat:mineral_sands -subcat-> cat:norm_isotope
+cat:phosphates -subcat-> cat:norm_isotope
+cat:oil_gas_production -subcat-> cat:norm_isotope
+cat:coal -subcat-> cat:norm_isotope
+cat:building_materials -subcat-> cat:norm_isotope
+cat:clay_bricks -subcat-> cat:building_materials
+cat:concrete -subcat-> cat:building_materials
+cat:granite -subcat-> cat:building_materials
+

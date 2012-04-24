@@ -1,0 +1,137 @@
+#\include chem_stable_isotopes.soft
+\include chem_unstable_isotopes.soft
+#\include chem_medical_isotopes.soft
+\include chem_compounds.soft
+\include uses_of_isotopes.soft
+\include medical_procedures.soft
+# this is a comment (ignored)
+
+[Chemistry]
+
+[[Elements]]
+cat:Metals -subcat-> cat:Elements
+cat:Non_Metals -subcat-> cat:Elements
+cat:Metalloids -subcat-> cat:Elements
+
+cat:Noble_Gases -subcat-> cat:Non_Metals
+cat:Halogens -subcat-> cat:Non_Metals
+cat:Other_Non_Metals -subcat-> cat:Non_Metals
+
+cat:Alkali_Metals -subcat-> cat:Metals
+cat:Alkali_Earth_Metals -subcat-> cat:Metals
+cat:Transition_Metals -subcat-> cat:Metals
+cat:Other_Metals -subcat-> cat:Metals
+cat:Rare_Earth_Metals -subcat-> cat:Metals
+cat:Lanthanide_Series -subcat-> cat:Rare_Earth_Metals
+cat:Actinide_Series -subcat-> cat:Rare_Earth_Metals
+
+cat:Actinium -subcat-> cat:Actinide_Series
+cat:Aluminum -subcat-> cat:Other_Metals
+cat:Americium -subcat-> cat:Actinide_Series
+cat:Antimony -subcat-> cat:Metalloids
+cat:Argon -subcat-> cat:Noble_Gases
+cat:Arsenic -subcat-> cat:Metalloids
+cat:Astatine -subcat-> cat:Halogens
+cat:Barium -subcat-> cat:Alkali_Earth_Metals
+cat:Berkelium -subcat-> cat:Actinide_Series
+cat:Beryllium -subcat-> cat:Alkali_Earth_Metals
+cat:Bismuth -subcat-> cat:Other_Metals
+cat:Bohrium -subcat-> cat:Transition_Metals
+cat:Boron -subcat-> cat:Metalloids
+cat:Bromine -subcat-> cat:Halogens
+cat:Cadmium -subcat-> cat:Transition_Metals
+cat:Calcium -subcat-> cat:Alkali_Earth_Metals
+cat:Californium -subcat-> cat:Actinide_Series
+cat:Carbon -subcat-> cat:Other_Non_Metals
+cat:Cerium -subcat-> cat:Lanthanide_Series
+cat:Cesium -subcat-> cat:Alkali_Metals
+cat:Chlorine -subcat-> cat:Halogens
+cat:Chromium -subcat-> cat:Transition_Metals
+cat:Cobalt -subcat-> cat:Transition_Metals
+cat:Copper -subcat-> cat:Transition_Metals
+cat:Curium -subcat-> cat:Actinide_Series
+cat:Dubnium -subcat-> cat:Transition_Metals
+cat:Dysprosium -subcat-> cat:Lanthanide_Series
+cat:Einsteinium -subcat-> cat:Actinide_Series
+cat:Erbium -subcat-> cat:Lanthanide_Series
+cat:Europium -subcat-> cat:Lanthanide_Series
+cat:Fermium -subcat-> cat:Actinide_Series
+cat:Fluorine -subcat-> cat:Halogens
+cat:Francium -subcat-> cat:Alkali_Metals
+cat:Gadolinium -subcat-> cat:Lanthanide_Series
+cat:Gallium -subcat-> cat:Other_Metals
+cat:Germanium -subcat-> cat:Metalloids
+cat:Gold -subcat-> cat:Transition_Metals
+cat:Hafnium -subcat-> cat:Transition_Metals
+cat:Hassium -subcat-> cat:Transition_Metals
+cat:Helium -subcat-> cat:Noble_Gases
+cat:Holmium -subcat-> cat:Lanthanide_Series
+cat:Hydrogen -subcat-> cat:Other_Non_Metals
+cat:Indium -subcat-> cat:Other_Metals
+cat:Iodine -subcat-> cat:Halogens
+cat:Iridium -subcat-> cat:Transition_Metals
+cat:Iron -subcat-> cat:Transition_Metals
+cat:Krypton -subcat-> cat:Noble_Gases
+cat:Lanthanum -subcat-> cat:Lanthanide_Series
+cat:Lawrencium -subcat-> cat:Transition_Metals
+cat:Lead -subcat-> cat:Other_Metals
+cat:Lithium -subcat-> cat:Alkali_Metals
+cat:Lutetium -subcat-> cat:Transition_Metals
+cat:Magnesium -subcat-> cat:Alkali_Earth_Metals
+cat:Manganese -subcat-> cat:Transition_Metals
+cat:Meitnerium -subcat-> cat:Transition_Metals
+cat:Mendelevium -subcat-> cat:Actinide_Series
+cat:Mercury -subcat-> cat:Transition_Metals
+cat:Molybdenum -subcat-> cat:Transition_Metals
+cat:Neodymium -subcat-> cat:Lanthanide_Series
+cat:Neon -subcat-> cat:Noble_Gases
+cat:Neptunium -subcat-> cat:Actinide_Series
+cat:Nickel -subcat-> cat:Transition_Metals
+cat:Niobium -subcat-> cat:Transition_Metals
+cat:Nitrogen -subcat-> cat:Other_Non_Metals
+cat:Nobelium -subcat-> cat:Actinide_Series
+cat:Osmium -subcat-> cat:Transition_Metals
+cat:Oxygen -subcat-> cat:Other_Non_Metals
+cat:Palladium -subcat-> cat:Transition_Metals
+cat:Phosphorus -subcat-> cat:Other_Non_Metals
+cat:Platinum -subcat-> cat:Transition_Metals
+cat:Plutonium -subcat-> cat:Actinide_Series
+cat:Polonium -subcat-> cat:Metalloids
+cat:Potassium -subcat-> cat:Alkali_Metals
+cat:Praseodymium -subcat-> cat:Lanthanide_Series
+cat:Promethium -subcat-> cat:Lanthanide_Series
+cat:Protactinium -subcat-> cat:Actinide_Series
+cat:Radium -subcat-> cat:Alkali_Earth_Metals
+cat:Radon -subcat-> cat:Noble_Gases
+cat:Rhenium -subcat-> cat:Transition_Metals
+cat:Rhodium -subcat-> cat:Transition_Metals
+cat:Rubidium -subcat-> cat:Alkali_Metals
+cat:Ruthenium -subcat-> cat:Transition_Metals
+cat:Rutherfordium -subcat-> cat:Transition_Metals
+cat:Samarium -subcat-> cat:Lanthanide_Series
+cat:Scandium -subcat-> cat:Transition_Metals
+cat:Seaborgium -subcat-> cat:Transition_Metals
+cat:Selenium -subcat-> cat:Other_Non_Metals
+cat:Silicon -subcat-> cat:Metalloids
+cat:Silver -subcat-> cat:Transition_Metals
+cat:Sodium -subcat-> cat:Alkali_Metals
+cat:Strontium -subcat-> cat:Alkali_Earth_Metals
+cat:Sulfur -subcat-> cat:Other_Non_Metals
+cat:Tantalum -subcat-> cat:Transition_Metals
+cat:Technetium -subcat-> cat:Transition_Metals
+cat:Tellurium -subcat-> cat:Metalloids
+cat:Terbium -subcat-> cat:Lanthanide_Series
+cat:Thallium -subcat-> cat:Other_Metals
+cat:Thorium -subcat-> cat:Actinide_Series
+cat:Thulium -subcat-> cat:Lanthanide_Series
+cat:Tin -subcat-> cat:Other_Metals
+cat:Titanium -subcat-> cat:Transition_Metals
+cat:Tungsten -subcat-> cat:Transition_Metals
+cat:Uranium -subcat-> cat:Actinide_Series
+cat:Vanadium -subcat-> cat:Transition_Metals
+cat:Xenon -subcat-> cat:Noble_Gases
+cat:Ytterbium -subcat-> cat:Lanthanide_Series
+cat:Yttrium -subcat-> cat:Transition_Metals
+cat:Zinc -subcat-> cat:Transition_Metals
+cat:Zirconium -subcat-> cat:Transition_Metals
+

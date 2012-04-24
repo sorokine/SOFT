@@ -1,0 +1,84 @@
+#
+# default styles for SOFT2DOT converter
+# see DOT language spec for details about the styles
+#
+
+#
+# \style (rel|cat|inst|sect<depth>):<ID> [extends <other_style>]
+#     style=dashed
+#     <style_attribue>=<value>
+#     ...
+# \style
+#
+# Style definitions are copied directly into DOT language output files.
+# A style can extend another style.  In that case style attributes of 
+# the parent style will be added to current style.  In case the same
+# attribute is present is both styles the attributes of the parent
+# style will be overwritten. 
+#
+# SOFT.pm contains default styles for cat:, rel:, inst:, rel:subcat,
+# rel:inst that will be used if no style definitions given.
+#
+# If attribute name is preceded with ~ character then this attribute
+# will be processed used instead of regular attribute if an entity 
+# has properties (typically loaded with \tuples directive).
+#
+# The values of all style attributes are run through template engine 
+# and then converted into styles in DOT language.
+# Each attribute value may contain template variables that will be
+# substituted with corresponding values.  Template variables are 
+# enclosed in @, e.g.: @ID@.  Template variables recognized:
+#   @@ - symbol @
+#   @ID@ - entity ID
+#   @ID_STRING@ - enity ID formated into string (_ replaced with \n)
+#   @P:name@ - the value of property 'name'
+#
+# Each attribute value may contain iterator template that will be
+# repeated for each key-value pair in the properties of the entity.
+# Inside iterator template template variable @PNAME@ and @PVAL@  will 
+# be substituted with property name and property value.  Iterator
+# template is designated with % signs at the begining.  The second % 
+# designates record delimiter, and one % at the end.  Use %%% to output 
+# a single % sign.  Example:
+#   %@PNAME@=@PVAL@%|% produces cat=pentane|p1=PENTANE|pn=7
+
+\style rel:s extends rel:
+    label=s:@@
+	color=purple
+\style
+
+\style rel:locatedIn
+	style=dashed
+	label=locatedIn
+	color=purple
+	fontcolor=purple
+\style
+
+\style rel:surveilledBy
+	style=dashed
+	label=surveilledBy
+	color=crimson
+	fontcolor=crimson
+\style
+
+\style rel:detects
+	style=dashed
+	label=detects
+	color=crimson
+	fontcolor=crimson
+\style
+
+\style cat:@test.csv extends cat:
+        ~shape=plaintext
+        ~label=\
+<TABLE BGCOLOR="yellow" BORDER="0" CELLBORDER="1" CELLSPACING="0"> \
+  <TR><TD colspan="2"><FONT POINT-SIZE="20.0" FACE="Helvetica" COLOR="blue">@ID@</FONT></TD></TR> \
+  <TR><TD>@P:p1@</TD><TD>@P:pn@</TD></TR> \
+</TABLE>
+\style
+
+\style cat:e_cat 
+	fillcolor=#abcdef
+	style=filled
+\style
+

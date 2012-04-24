@@ -1,0 +1,67 @@
+# this is a comment (ignored)
+
+[Chemistry]
+
+[[Compounds]]
+
+cat:ionic_compound -subcat-> cat:compound
+cat:salt -synonym-> cat:ionic_compound
+
+cat:covalent_compound -subcat-> cat:compound
+cat:inorganic_compound -subcat-> cat:compound
+cat:organic_compound -subcat-> cat:compound
+cat:metalic_compound -subcat-> cat:compound
+cat:semiconductor_compound -subcat-> cat:compound
+
+cat:HgI2 -is_a-> cat:ionic_compound
+cat:NaI(Tl) -is_a-> cat:ionic_compound
+cat:CsI(Na) -is_a-> cat:ionic_compound
+cat:LaBr3(Ce) -is_a-> cat:ionic_compound
+
+cat:CdTe -is_a-> cat:semiconductor_compound
+cat:CZT -is_a-> cat:semiconductor_compound
+cat:HPGe -is_a-> cat:semiconductor_compound
+
+cat:BGO -is_a-> cat:inorganic_compound
+
+cat:hydrocarbon -subcat-> cat:organic_compound
+#cat:solvent -consist_of-> *cat:Other_Non_Metals
+#cat:hydrocarbon -consist_of-> *cat:Other_Non_Metals
+
+cat:methane -subcat-> cat:hydrocarbon
+cat:ethane -subcat-> cat:hydrocarbon
+cat:propane -subcat-> cat:hydrocarbon
+cat:butane -subcat-> cat:hydrocarbon
+cat:pentane -subcat-> cat:hydrocarbon
+cat:hexane -subcat-> cat:hydrocarbon
+cat:benzene -subcat-> cat:hydrocarbon
+cat:benzene -acts_as-> cat:solvent
+
+cat:alcohol -subcat-> cat:organic_compound
+cat:methanol -subcat-> cat:alcohol
+cat:ethanol -subcat-> cat:alcohol
+cat:1-pentanol -subcat-> cat:alcohol
+
+cat:water -subcat-> cat:covalent_compound
+cat:water -acts_as-> cat:solvent
+cat:dihydrogen_oxide -synonym-> cat:water
+cat:deuterium_oxide -subcat-> cat:covalent_compound
+cat:heavy_water -synonym-> cat:deuterium_oxide
+cat:deuterium_oxide -contains-> *cat:H-2
+cat:tritium_oxide -subcat-> cat:covalent_compound
+cat:super-heavy_water -synonym-> cat:tritium_oxide
+cat:tritium_oxide -contains-> *cat:H-3
+
+cat:sugar -subcat-> cat:hydrocarbon
+cat:FDG -subcat-> cat:sugar
+cat:fludeoxyglucose -chemical_name-> cat:FDG
+cat:FDG -contains-> *cat:F-18
+cat:FDG -used_in-> *cat:PET
+cat:FDG -used_in-> *cat:SPECT
+
+cat:Hexakis_technetium -subcat-> cat:hydrocarbon
+cat:2-methoxy-2-methylpropylisonitrile-Tc -chemical_name-> cat:Hexakis_technetium
+cat:Hexakis_technetium -contains-> *cat:Tc-99m
+cat:Tc99m-sestamibi -synonym-> cat:Hexakis_technetium
+cat:Hexakis_technetium -used_in-> *cat:myocardial_perfusion_imaging
+

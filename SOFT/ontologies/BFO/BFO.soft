@@ -1,0 +1,62 @@
+#
+# Basic Formal Ontology
+#
+# For orginal publication on Basic Formal Ontology see
+#   Spear, A. D. (2006). Ontology for the Twenty First Century:  
+#   An Introduction with Recommendations. Saarbrücken, Germany: IFOMIS. 
+#   Retrieved from http://www.ifomis.org/bfo/documents/manual.pdf
+#
+
+[BasicFormalOntology]
+cat:Occurent -subcat-> cat:Entity
+cat:Continuant ~
+
+cat:TemporalRegion -subcat-> cat:Occurent
+cat:SpatiotemporalRegion ~
+cat:ProcessualEntity ~
+
+cat:ConnectedTemporalRegion -subcat-> cat:TemporalRegion
+cat:ScatteredTemporalRegion ~
+
+cat:TemporalInterval -subcat-> cat:ConnectedTemporalRegion
+cat:TemporalInstant ~
+
+cat:ConnectedSpatiotemporalRegion -subcat-> cat:SpatiotemporalRegion
+cat:ScatteredSpatiotemporalRegion ~
+
+cat:SpatiotemporalInterval -subcat-> cat:ConnectedSpatiotemporalRegion
+cat:SpatiotemporalInstant ~
+
+cat:ProcessualContext -subcat-> cat:ProcessualEntity 
+cat:ProcessBoundary ~
+cat:ProcessAggregate ~
+cat:Process ~
+cat:FiatProcessPart ~
+
+cat:IndependentContinuant -subcat-> cat:Continuant
+cat:DependentContinuant ~
+cat:SpatialRegion ~
+
+cat:ObjectBoundary -subcat-> cat:IndependentContinuant
+cat:Site ~
+cat:MaterialEntity ~
+
+cat:ObjectAggregate -subcat-> cat:MaterialEntity
+cat:FiatObjectPart ~
+cat:Object ~
+
+cat:SpecificallyDependentContinuant -subcat-> cat:DependentContinuant
+cat:GenericallyDependentContinuant -subcat-> cat:DependentContinuant
+
+cat:RealizableEntity -subcat-> cat:SpecificallyDependentContinuant
+cat:Quality ~
+
+cat:Function -subcat-> cat:RealizableEntity
+cat:Role ~
+cat:Disposition ~
+
+cat:Volume -subcat-> cat:SpatialRegion
+cat:Surface ~
+cat:Line ~
+cat:Point ~
+

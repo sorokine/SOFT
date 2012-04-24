@@ -1,0 +1,128 @@
+# this is a comment (ignored)
+
+[Physics]
+
+[[Elementary_Particles]]
+
+cat:lepton -subcat-> cat:elementary_particle
+cat:quark -subcat-> cat:elementary_particle
+cat:gauge_boson -subcat-> cat:elementary_particle
+cat:anti_lepton -subcat-> cat:anti_particles
+
+cat:electron -subcat-> cat:lepton
+cat:positron -subcat-> cat:anti_lepton
+cat:neutrino -subcat-> cat:lepton
+cat:muon_neutrino -subcat-> cat:lepton
+cat:muon -subcat-> cat:lepton
+cat:tau_particle -subcat-> cat:lepton
+cat:tau_neutrino -subcat-> cat:lepton
+cat:photon -subcat-> cat:gauge_boson
+cat:W_boson -subcat-> cat:gauge_boson
+cat:Z_boson -subcat-> cat:gauge_boson
+cat:gluon -subcat-> cat:gauge_boson
+cat:up_quark -subcat-> cat:quark
+cat:down_quark -subcat-> cat:quark
+cat:charm_quark -subcat-> cat:quark
+cat:strange_quark -subcat-> cat:quark
+cat:top_quark -subcat-> cat:quark
+cat:bottom_quark -subcat-> cat:quark
+
+[[Composite_Particles]]
+
+cat:baryon -subcat-> cat:hadron
+cat:baryon -consists_of-> *cat:quark
+cat:three_quarks -number_quarks-> *cat:baryon
+cat:meson -subcat-> cat:hadron
+cat:meson -consists_of-> *cat:quark
+cat:two_quarks -number_quarks-> cat:meson
+cat:proton -subcat-> cat:baryon
+cat:proton -consists_of_two-> *cat:up_quark
+cat:proton -consists_of_one-> *cat:down_quark
+cat:neutron -subcat-> cat:baryon
+cat:neutron -consists_of_one-> *cat:up_quark
+cat:neutron -consists_of_two-> *cat:down_quark
+cat:eta_meson -subcat-> cat:meson
+cat:K_meson -subcat-> cat:meson
+cat:kaon -synonym-> cat:K_meson
+cat:pi_meson -subcat-> cat:meson
+cat:pion -synonym-> cat:pi_meson
+
+[[Atoms]]
+cat:atom -consists_of-> *cat:neutron
+cat:atom -consists_of-> *cat:proton
+cat:atom -consists_of-> *cat:electron
+cat:atom -synonym-> *cat:Elements
+
+ 
+# this is a comment (ignored)
+                                                                                
+[Physics]
+                                                                                
+[[Electromagnetic_Spectrum]]
+                                                                                
+cat:radio -subcat-> cat:electromagnetic_spectrum
+cat:infra_red -subcat-> cat:electromagnetic_spectrum
+cat:visible -subcat-> cat:electromagnetic_spectrum
+cat:ultra_violet -subcat-> cat:electromagnetic_spectrum
+cat:x_ray -subcat-> cat:electromagnetic_spectrum
+cat:gamma -subcat-> cat:electromagnetic_spectrum
+
+cat:hard_xrays -subcat-> cat:x_ray
+cat:soft_xrays -subcat-> cat:x_ray
+cat:extreme_ultra_violet -subcat-> cat:ultra_violet
+cat:near_ultra_violet -subcat-> cat:ultra_violet
+cat:near_infra_red -subcat-> cat:infra_red
+cat:mid_infra_red -subcat-> cat:infra_red
+cat:far_infra_red -subcat-> cat:infra_red
+
+*cat:photon -quantum_of-> cat:electromagnetic_radiation
+cat:electromagnetic_spectrum -range_of-> cat:electromagnetic_radiation
+
+[[Decay_Processes]]
+cat:gamma_decay -subcat-> cat:decay_process
+cat:beta_decay -subcat-> cat:decay_process
+cat:alpha_decay -subcat-> cat:decay_process
+cat:proton_decay -subcat-> cat:decay_process
+cat:spontaneous_fission -subcat-> cat:decay_process
+
+cat:gamma_decay -creates-> cat:gamma
+cat:beta_decay -creates-> cat:beta_particle
+cat:alpha_decay -creates-> cat:alpha_particle
+
+cat:proton_decay -creates-> *cat:neutron
+cat:proton_decay -creates-> *cat:positron
+cat:proton_decay -creates-> *cat:neutrino
+cat:positron_emission -results_from-> cat:proton_decay
+
+cat:spontaneous_fission -creates-> *cat:neutron
+cat:spontaneous_fission -creates-> cat:nucleus_fragments
+
+cat:alpha_particle -is_nucleus_of-> *cat:Helium
+cat:beta_particle -is_a-> *cat:electron
+
+[[Particle_Interactions_with_Matter]]
+cat:gamma_interactions -subcat-> cat:particle_interations_with_matter
+cat:compton_scattering -subcat-> cat:gamma_interactions
+cat:x_ray -scatters_in-> cat:compton_scattering
+cat:gamma -scatters_in-> cat:compton_scattering 
+cat:electron -recoils_from-> cat:compton_scattering
+cat:pair_production -subcat-> cat:gamma_interactions
+cat:gamma -absorbs_in-> cat:pair_production
+cat:electron -emits_from-> cat:pair_production
+cat:positron -emits_from-> cat:pair_production
+cat:photoelectric_effect -subcat-> cat:gamma_interactions
+cat:gamma -absorbs_in-> cat:photoelectric_effect
+cat:electron -emits_from-> cat:photoelectric_effect
+
+cat:neutron_interactions -subcat-> cat:particle_interations_with_matter
+cat:spallation-reactions -subcat-> cat:neutron_interactions
+cat:elastic_scattering -subcat-> cat:neutron_interactions
+cat:inelastic_scattering -subcat-> cat:neutron_interactions
+cat:transmutation -subcat-> cat:neutron_interactions
+cat:proton -produced_from-> cat:transmutation
+cat:neutron -produced_from-> cat:transmutation
+cat:radiative_capture -subcat-> cat:neutron_interactions
+cat:neutron -captured-> cat:radiative_capture
+cat:alpha_interactions -subcat-> cat:particle_interations_with_matter
+cat:electronic_excitation -subcat-> cat:alpha_interactions
+cat:electronic_ionization -subcat-> cat:alpha_interactions

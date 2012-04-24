@@ -1,0 +1,315 @@
+# this is a comment (ignored)
+
+[Chemistry]
+
+[[Elements]]
+
+cat:Al-27 -stable-> cat:Aluminum
+
+cat:Sb-121 -stable-> cat:Antimony
+cat:Sb-123 -stable-> cat:Antimony
+
+cat:Ar-35 -stable-> cat:Argon
+cat:Ar-40 -stable-> cat:Argon
+
+cat:As-75 -stable-> cat:Arsenic
+
+cat:Ba-130 -stable-> cat:Barium
+cat:Ba-132 -stable-> cat:Barium
+cat:Ba-134 -stable-> cat:Barium
+cat:Ba-135 -stable-> cat:Barium
+cat:Ba-136 -stable-> cat:Barium
+cat:Ba-137 -stable-> cat:Barium
+cat:Ba-138 -stable-> cat:Barium
+
+cat:Be-9 -stable-> cat:Beryllium
+
+cat:Bi-209 -stable-> cat:Bismuth
+
+cat:B-10 -stable-> cat:Boron
+cat:B-11 -stable-> cat:Boron
+
+cat:Br-79 -stable-> cat:Bromine
+cat:Br-81 -stable-> cat:Bromine
+
+cat:Cd-110 -stable-> cat:Cadmium
+cat:Cd-111 -stable-> cat:Cadmium
+cat:Cd-112 -stable-> cat:Cadmium
+
+cat:Ca-40 -stable-> cat:Calcium
+cat:Ca-42 -stable-> cat:Calcium
+cat:Ca-43 -stable-> cat:Calcium
+cat:Ca-44 -stable-> cat:Calcium
+
+cat:C-12 -stable-> cat:Carbon
+cat:C-13 -stable-> cat:Carbon
+
+cat:Ce-136 -stable-> cat:Cerium
+cat:Ce-138 -stable-> cat:Cerium
+cat:Ce-140 -stable-> cat:Cerium
+
+cat:Cs-133 -stable-> cat:Cesium
+
+cat:Cl-35 -stable-> cat:Chlorine
+cat:Cl-37 -stable-> cat:Chlorine
+
+cat:Cr-52 -stable-> cat:Chromium
+cat:Cr-53 -stable-> cat:Chromium
+cat:Cr-54 -stable-> cat:Chromium
+
+cat:Co-59 -stable-> cat:Cobalt
+
+cat:Cu-63 -stable-> cat:Copper
+cat:Cu-65 -stable-> cat:Copper
+
+cat:Dy-158 -stable-> cat:Dysprosium
+cat:Dy-160 -stable-> cat:Dysprosium
+cat:Dy-161 -stable-> cat:Dysprosium
+cat:Dy-162 -stable-> cat:Dysprosium
+cat:Dy-163 -stable-> cat:Dysprosium
+cat:Dy-164 -stable-> cat:Dysprosium
+
+cat:Er-162 -stable-> cat:Erbium
+cat:Er-164 -stable-> cat:Erbium
+cat:Er-165 -stable-> cat:Erbium
+cat:Er-166 -stable-> cat:Erbium
+cat:Er-167 -stable-> cat:Erbium
+cat:Er-168 -stable-> cat:Erbium
+cat:Er-170 -stable-> cat:Erbium
+
+cat:Eu-153 -stable-> cat:Europium
+
+cat:F-19 -stable-> cat:Fluorine
+
+cat:Gd-154 -stable-> cat:Gadolinium
+cat:Gd-155 -stable-> cat:Gadolinium
+cat:Gd-156 -stable-> cat:Gadolinium
+cat:Gd-157 -stable-> cat:Gadolinium
+cat:Gd-158 -stable-> cat:Gadolinium
+
+cat:Ga-69 -stable-> cat:Gallium
+cat:Ga-71 -stable-> cat:Gallium
+
+cat:Ge-70 -stable-> cat:Germanium
+cat:Ge-72 -stable-> cat:Germanium
+cat:Ge-73 -stable-> cat:Germanium
+cat:Ge-74 -stable-> cat:Germanium
+
+cat:Hf-176 -stable-> cat:Hafnium
+cat:Hf-177 -stable-> cat:Hafnium
+cat:Hf-178 -stable-> cat:Hafnium
+cat:Hf-179 -stable-> cat:Hafnium
+cat:Hf-180 -stable-> cat:Hafnium
+
+cat:He-3 -stable-> cat:Helium
+cat:He-4 -stable-> cat:Helium
+
+cat:Ho-165 -stable-> cat:Holmium
+
+cat:H-1 -stable-> cat:Hydrogen
+cat:H-2 -stable-> cat:Hydrogen
+cat:Deuterium -synonym-> cat:H-2
+
+cat:In-113 -stable-> cat:Indium
+
+cat:I-127 -stable-> cat:Iodine
+
+cat:Fe-56 -stable-> cat:Iron
+cat:Fe-57 -stable-> cat:Iron
+cat:Fe-58 -stable-> cat:Iron
+
+cat:Kr-78 -stable-> cat:Krypton
+cat:Kr-80 -stable-> cat:Krypton
+cat:Kr-82 -stable-> cat:Krypton
+cat:Kr-83 -stable-> cat:Krypton
+cat:Kr-84 -stable-> cat:Krypton
+cat:Kr-86 -stable-> cat:Krypton
+
+cat:La-139 -stable-> cat:Lanthanum
+
+cat:Pb-206 -stable-> cat:Lead
+cat:Pb-207 -stable-> cat:Lead
+cat:Pb-208 -stable-> cat:Lead
+
+cat:Li-6 -stable-> cat:Lithium
+cat:Li-7 -stable-> cat:Lithium
+
+cat:Lu-175 -stable-> cat:Lutetium
+
+cat:Mn-24 -stable-> cat:Magnesium
+cat:Mn-25 -stable-> cat:Magnesium
+cat:Mn-26 -stable-> cat:Magnesium
+
+cat:Mn-55 -stable-> cat:Manganese
+
+cat:Hg-196 -stable-> cat:Mercury
+cat:Hg-198 -stable-> cat:Mercury
+cat:Hg-199 -stable-> cat:Mercury
+cat:Hg-200 -stable-> cat:Mercury
+cat:Hg-201 -stable-> cat:Mercury
+cat:Hg-202 -stable-> cat:Mercury
+
+cat:Mo-92 -stable-> cat:Molybdenum
+cat:Mo-94 -stable-> cat:Molybdenum
+cat:Mo-95 -stable-> cat:Molybdenum
+cat:Mo-96 -stable-> cat:Molybdenum
+cat:Mo-97 -stable-> cat:Molybdenum
+cat:Mo-98 -stable-> cat:Molybdenum
+
+cat:Nd-142 -stable-> cat:Neodymium
+cat:Nd-143 -stable-> cat:Neodymium
+cat:Nd-145 -stable-> cat:Neodymium
+cat:Nd-148 -stable-> cat:Neodymium
+cat:Nd-150 -stable-> cat:Neodymium
+
+cat:Ne-20 -stable-> cat:Neon
+cat:Ne-21 -stable-> cat:Neon
+cat:Ne-22 -stable-> cat:Neon
+
+cat:Ni-58 -stable-> cat:Nickel
+cat:Ni-60 -stable-> cat:Nickel
+cat:Ni-61 -stable-> cat:Nickel
+cat:Ni-62 -stable-> cat:Nickel
+cat:Ni-64 -stable-> cat:Nickel
+
+cat:Nb-93 -stable-> cat:Niobium
+
+cat:N-14 -stable-> cat:Nitrogen
+cat:N-15 -stable-> cat:Nitrogen
+
+cat:O-16 -stable-> cat:Oxygen
+cat:O-17 -stable-> cat:Oxygen
+cat:O-18 -stable-> cat:Oxygen
+
+cat:Pd-100 -stable-> cat:Palladium
+cat:Pd-102 -stable-> cat:Palladium
+cat:Pd-104 -stable-> cat:Palladium
+cat:Pd-105 -stable-> cat:Palladium
+cat:Pd-106 -stable-> cat:Palladium
+cat:Pd-108 -stable-> cat:Palladium
+cat:Pd-110 -stable-> cat:Palladium
+
+cat:P-31 -stable-> cat:Phosphorus
+
+cat:Pt-192 -stable-> cat:Platinum
+cat:Pt-194 -stable-> cat:Platinum
+cat:Pt-195 -stable-> cat:Platinum
+cat:Pt-196 -stable-> cat:Platinum
+cat:Pt-198 -stable-> cat:Platinum
+
+cat:Pr-141 -stable-> cat:Praseodynium
+
+cat:K-39 -stable-> cat:Potassium
+cat:K-41 -stable-> cat:Potassium
+
+cat:Rh-103 -stable-> cat:Rhodium
+
+cat:Rb-85 -stable-> cat:Rubidium
+
+cat:Ru-96 -stable-> cat:Ruthenium
+cat:Ru-98 -stable-> cat:Ruthenium
+cat:Ru-99 -stable-> cat:Ruthenium
+cat:Ru-100 -stable-> cat:Ruthenium
+cat:Ru-101 -stable-> cat:Ruthenium
+cat:Ru-102 -stable-> cat:Ruthenium
+cat:Ru-104 -stable-> cat:Ruthenium
+
+cat:Sm-144 -stable-> cat:Samarium
+cat:Sm-150 -stable-> cat:Samarium
+cat:Sm-152 -stable-> cat:Samarium
+cat:Sm-154 -stable-> cat:Samarium
+
+cat:Sc-45 -stable-> cat:Scandium
+
+cat:Se-76 -stable-> cat:Selenium
+cat:Se-77 -stable-> cat:Selenium
+cat:Se-78 -stable-> cat:Selenium
+cat:Se-80 -stable-> cat:Selenium
+
+cat:Si-28 -stable-> cat:Silicon
+cat:Si-29 -stable-> cat:Silicon
+cat:Si-30 -stable-> cat:Silicon
+
+cat:Ag-107 -stable-> cat:Silver
+cat:Ag-109 -stable-> cat:Silver
+
+cat:Na-23 -stable-> cat:Sodium
+
+cat:S-32 -stable-> cat:Sulfur
+cat:S-33 -stable-> cat:Sulfur
+cat:S-34 -stable-> cat:Sulfur
+cat:S-36 -stable-> cat:Sulfur
+
+cat:Sr-84 -stable-> cat:Strontium
+cat:Sr-86 -stable-> cat:Strontium
+cat:Sr-87 -stable-> cat:Strontium
+cat:Sr-88 -stable-> cat:Strontium
+
+cat:S-32 -stable-> cat:Sulfur
+cat:S-33 -stable-> cat:Sulfur
+cat:S-34 -stable-> cat:Sulfur
+cat:S-36 -stable-> cat:Sulfur
+
+cat:Ta-181 -stable-> cat:Tantalum
+
+cat:Tb-159 -stable-> cat:Terbium
+
+cat:Te-122 -stable-> cat:Tellurium
+cat:Te-124 -stable-> cat:Tellurium
+cat:Te-125 -stable-> cat:Tellurium
+cat:Te-126 -stable-> cat:Tellurium
+
+cat:Tl-203 -stable-> cat:Thallium
+cat:Tl-205 -stable-> cat:Thallium
+
+cat:Sn-112 -stable-> cat:Tin
+cat:Sn-114 -stable-> cat:Tin
+cat:Sn-115 -stable-> cat:Tin
+cat:Sn-116 -stable-> cat:Tin
+cat:Sn-117 -stable-> cat:Tin
+cat:Sn-118 -stable-> cat:Tin
+cat:Sn-119 -stable-> cat:Tin
+cat:Sn-120 -stable-> cat:Tin
+cat:Sn-122 -stable-> cat:Tin
+cat:Sn-124 -stable-> cat:Tin
+
+cat:Ti-46 -stable-> cat:Titanium
+cat:Ti-47 -stable-> cat:Titanium
+cat:Ti-48 -stable-> cat:Titanium
+cat:Ti-49 -stable-> cat:Titanium
+cat:Ti-50 -stable-> cat:Titanium
+
+cat:W-182 -stable-> cat:Tungsten
+cat:W-183 -stable-> cat:Tungsten
+cat:W-184 -stable-> cat:Tungsten
+
+cat:V-51 -stable-> cat:Vanadium
+
+cat:Xe-124 -stable-> cat:Xenon
+cat:Xe-126 -stable-> cat:Xenon
+cat:Xe-128 -stable-> cat:Xenon
+cat:Xe-129 -stable-> cat:Xenon
+cat:Xe-130 -stable-> cat:Xenon
+cat:Xe-131 -stable-> cat:Xenon
+cat:Xe-132 -stable-> cat:Xenon
+cat:Xe-136 -stable-> cat:Xenon
+
+cat:Yb-168 -stable-> cat:Ytterbium
+cat:Yb-170 -stable-> cat:Ytterbium
+cat:Yb-171 -stable-> cat:Ytterbium
+cat:Yb-172 -stable-> cat:Ytterbium
+cat:Yb-173 -stable-> cat:Ytterbium
+cat:Yb-174 -stable-> cat:Ytterbium
+cat:Yb-176 -stable-> cat:Ytterbium
+
+cat:Y-89 -stable-> cat:Yttrium
+
+cat:Zn-64 -stable-> cat:Zinc
+cat:Zn-66 -stable-> cat:Zinc
+cat:Zn-67 -stable-> cat:Zinc
+cat:Zn-70 -stable-> cat:Zinc
+cat:Zn-72 -stable-> cat:Zinc
+
+cat:Zr-90 -stable-> cat:Zirconium
+cat:Zr-91 -stable-> cat:Zirconium
+cat:Zr-92 -stable-> cat:Zirconium

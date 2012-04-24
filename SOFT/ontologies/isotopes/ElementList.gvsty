@@ -1,0 +1,23 @@
+#
+# styles for elements database
+#
+
+\style rel:isotope 
+	style=solid
+	arrowhead=dot
+	color=purple
+#	label=isotope
+\style
+
+\style rel:is_a extends rel:
+	color=green
+\style
+
+\style cat:@ElementList.csv extends cat: 
+        ~shape=plaintext
+        ~label=\
+<TABLE BGCOLOR="yellow" BORDER="0" CELLBORDER="1" CELLSPACING="0"> \
+  <TR><TD colspan="2"><FONT POINT-SIZE="20.0" FACE="Helvetica" COLOR="blue">@ID@</FONT></TD></TR> \
+  <TR><TD>@P:AtomicNo@</TD><TD>@P:Symbol@</TD></TR> \
+</TABLE>
+\style

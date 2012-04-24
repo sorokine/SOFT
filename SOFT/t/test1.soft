@@ -1,0 +1,20 @@
+[section1]
+cat:72.15y -molar_mass-> cat:pentane
+
+#\include inc.soft
+
+\styles test1.gvsty
+
+# ditto test
+cat:category_c -s-> cat:d
+cat:f -s-> ~
+cat:e_cat~
+
+# continued lines test
+cat:c \   
+	-has_part-> \
+		*cat:b
+
+[section3]
+*cat:f -subcat-> *cat:a
+
