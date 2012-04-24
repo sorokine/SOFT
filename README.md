@@ -16,6 +16,28 @@ the SOFT and its associated files is available.  Also ontologies in
 SOFT format can be converted into Graphviz gv files for diagram
 rendering or into plain text for use in other programs.
 
+## SOFT Specification in 5 Lines
+```
+
+# Simple Ontology FormaT (*.soft)
+#
+# [section]
+# [[subsection]]
+# entity_type:enity_name -relation_name-> entity_type:enity_name 
+```
+## SOFT Example 
+```
+
+# this is a comment (ignored)
+    
+[Healthy_Food]
+cat:apples -subcat-> cat:fruits
+cat:oranges -subcat-> cat:fruits
+```
+and it renders in
+
+![SOFT Example 1](wiki/example1.png)
+
 # SOFT Data Model
 
 * relations in ontologies are represented as triples using the
