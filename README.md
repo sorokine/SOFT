@@ -1,4 +1,5 @@
-# Simple Ontology FormaT (SOFT)
+Simple Ontology FormaT (SOFT)
+=============================
 
 SOFT is a human-readable and human-editable ontology format.  SOFT
 files can be created and modified using basic text editor like vi or
@@ -6,35 +7,28 @@ emacs and processed using common command-line Unix tools like grep or
 diff.  SOFT supports representation of ontologies as triples similar
 to RDF and n3 formats.  Support for time-indexed relations is in the
 development.  In addition to triples, SOFT supports storing of entity
-properties in CSV format or relational database.
+properties in CSV format or relational database and rendering diagrams
+by way of graphviz (http://graphviz.org).
 
-SOFT ontologies can be rendered as diagrams using Graphviz layout
-engine (http://graphviz.org) with support for advanced styles.
-Currently software support for SOFT is implemented as perl module
-SOFT.pm.  Such functionality as parsing, validating, and writing of
-the SOFT and its associated files is available.  Also ontologies in
-SOFT format can be converted into Graphviz gv files for diagram
-rendering or into plain text for use in other programs.
+For more information visit SOFT web site at http://sorokine.github.com/SOFT
 
-## SOFT Specification in 5 Lines
-```
+Quick Installation Instruction
+==============================
 
-# Simple Ontology FormaT (*.soft)
-#
-# [section]
-# [[subsection]]
-# entity_type:enity_name -relation_name-> entity_type:enity_name 
-```
-## SOFT Example 
-```
+Requirements
+------------
 
-# this is a comment (ignored)
-    
-[Healthy_Food]
-cat:apples -subcat-> cat:fruits
-cat:oranges -subcat-> cat:fruits
-```
-and it renders in
+1.  Unix-like system (Linux, OSX, or cygwin on Windows)
+2.  Perl 5 and access to CPAN
+3.  graphviz from http://graphviz.org (for diagrams)
 
-![SOFT Example 1](SOFT/wiki/example1.png)
+Installation Steps
+------------------
+1.  Download SOFT distribution or clone SOFT repository from Github
+2.  cd SOFT/SOFT
+3.  run standard Perl module installation procedure:
+  1.  perl Makefile.PL
+  2.  make
+  3.  make install
+4.  verify installation by launching ```soft2gv.pl -h```
 
