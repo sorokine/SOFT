@@ -13,17 +13,16 @@ by way of graphviz (http://graphviz.org).
 For more information visit SOFT web site at http://sorokine.github.com/SOFT
 
 Quick Installation Instruction
-==============================
+------------------------------
 
-Requirements
-------------
+### Requirements
 
 1.  Unix-like system (Linux, OSX, or cygwin on Windows)
 2.  Perl 5 and access to CPAN
 3.  graphviz from http://graphviz.org (for diagrams)
 
-Installation Steps
-------------------
+### Installation Steps
+
 1.  Download SOFT distribution or clone SOFT repository from Github
 2.  cd SOFT/SOFT
 3.  run standard Perl module installation procedure:
