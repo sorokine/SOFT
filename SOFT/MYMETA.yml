@@ -1,0 +1,29 @@
+---
+abstract: 'Perl module for processing files in Simple Ontology FormaT'
+author:
+  - 'Alex Sorokine <SorokinA@ornl.gov>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+distribution_type: module
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: SOFT
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Convert::Color: 0
+  HTML::Entities: 0
+  Test::More: 0
+  Text::CSV: 0
+  Text::Soundex: 0
+  Text::Wrap: 0
+  Tie::RegexpHash: 0.15
+version: 0.5
