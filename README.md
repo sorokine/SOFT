@@ -33,7 +33,7 @@ Quick Installation Instruction
 7.  ```make install```
 4.  Verify installation by launching ```soft2gv.pl -h```
 
-### Installation Steps
+### --Installation Steps
 
 1.  Download SOFT distribution or clone SOFT repository from Github
 2.  cd SOFT/SOFT
@@ -41,7 +41,7 @@ Quick Installation Instruction
   1.  perl Makefile.PL
   2.  make
   3.  make install
-4.  verify installation by launching ```soft2gv.pl -h```
+4.  verify installation by launching ```soft2gv.pl -h```--
 
 ## LICENSE INFORMATION
 
