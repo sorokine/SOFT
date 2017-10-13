@@ -25,6 +25,7 @@ Quick Installation Instruction
 
 1.  ```sudo apt install graphviz gsfonts```
 2.  Run ```cpan``` and agree on all questions.  local::lib is the easiest way to install Perl modules.  This step takes time and must complete to make everything work.
+3.  Exit cpan prompt with Ctrl-D, then logout of the system and login again or launch a new shell
 3.  ```git clone https://github.com/sorokine/SOFT.git```
 4.  ```cd SOFT/SOFT```
 5.  ```cpan Convert::Color HTML::Entities Text::CSV Text::Soundex Tie::RegexpHash```
