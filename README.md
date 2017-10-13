@@ -21,6 +21,18 @@ Quick Installation Instruction
 2.  Perl 5 and access to CPAN
 3.  graphviz from http://graphviz.org (for diagrams)
 
+### Installation the 2017 Way
+
+1.  ```sudo apt install graphviz gsfonts```
+2.  ```cpan``` and agree on all questions.  ```local::lib``` is the easiest way to install Perl modules.  This step takes time and must complete to make everything work.
+3.  ```git clone https://github.com/sorokine/SOFT.git```
+4.  ```cd SOFT/SOFT```
+5.  ```cpan Convert::Color HTML::Entities Text::CSV Text::Soundex Tie::RegexpHash```
+5.  ```perl Makefile.PL```  There should be no complaints about missing modules
+6.  ```make```
+7.  ```make install```
+4.  Verify installation by launching ```soft2gv.pl -h```
+
 ### Installation Steps
 
 1.  Download SOFT distribution or clone SOFT repository from Github
